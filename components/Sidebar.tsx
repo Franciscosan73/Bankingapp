@@ -16,7 +16,7 @@ const Sidebar = ({user}: SiderbarProps) => {
         <nav className='flex flex-col gap-4'>
             <Link href="/" className="mb-12 flex cursor-pointer items-center gap-2">
             <Image src="/icons/logo.svg" width={34} height={34} alt="BCRA logo" className="max-xl:size-14 size-[24px]" />
-            <h1 className="sidebar-logo">BCRA</h1>
+            <h1 className="sidebar-logo">BRCA</h1>
             </Link>
 
             {sidebarLinks.map((item) => {
