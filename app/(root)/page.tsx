@@ -31,7 +31,11 @@ const Home = () => {
       <RightSidebar 
       user={loggedIn}
       transaction={[]}
+<<<<<<< HEAD
       banks={[{ currentBalance: 123.50}, { currentBalance: 123.50}]}
+=======
+      banks={[{}, {}]}
+>>>>>>> 682ae20 (Tailwind version corrected, Added responsive and MobileNav, Chart and Animations.)
       />
     </section>
   )
