@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import { formatAmount } from '@/lib/utils'
 import Link from 'next/link'
 import Image from 'next/image'
@@ -39,13 +38,6 @@ const BankCard = ({ account, userName, showBalance = true}: CreditCardProps) => 
         <Image src="/icons/lines.png" width={316} height={190} alt="lines" className="absolute top-0 left-0" />
       </Link>
     </div>
-=======
-import React from 'react'
-
-const BankCard = () => {
-  return (
-    <div>BankCard</div>
->>>>>>> 682ae20 (Tailwind version corrected, Added responsive and MobileNav, Chart and Animations.)
   )
 }
 
